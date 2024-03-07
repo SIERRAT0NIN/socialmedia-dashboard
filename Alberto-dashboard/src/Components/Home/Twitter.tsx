@@ -14,7 +14,12 @@ const Twitter = () => {
       <div className="text-black bg-white w-72 h-72 mx-auto align-middle flex justify-center mt-3 rounded-2xl shadow-md">
         <span className="bg-gradient-to-r from-purple-500 to-pink-500 h-fit text-white p-2 rounded-md mt-4">
           <span className="flex justify-center">
-            <Avatar isBordered color="primary" />
+            <Avatar
+              isBordered
+              color="primary"
+              src="https://pbs.twimg.com/profile_images/1733384457300946944/DbBZK_tG_400x400.jpg"
+            />
+            <span className="ml-2 align-middle">@sierra_alberto_</span>
           </span>
           Twitter
         </span>

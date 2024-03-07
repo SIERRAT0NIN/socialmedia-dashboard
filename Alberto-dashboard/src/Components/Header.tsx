@@ -5,8 +5,10 @@ const Header = () => {
   return (
     <div className="w-full bg-white justify-center flex">
       <div className="m-5 text-black">
-        <Navbar>
-          <NavbarBrand>Alberto Sierra Social Media Dashboard</NavbarBrand>
+        <Navbar shouldHideOnScroll>
+          <NavbarBrand className="great-vibes-regular text-7xl">
+            Alberto Sierra
+          </NavbarBrand>
         </Navbar>
       </div>
     </div>

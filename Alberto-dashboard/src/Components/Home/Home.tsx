@@ -19,11 +19,7 @@ const Home = () => {
 
   return (
     <>
-      <h1 className="justify-center flex m-3 text-black font-bold bg-white">
-        <span className="glass p-5 rounded-xl bg-black text-white mt-5">
-          Checkout My Latest Post!
-        </span>
-      </h1>
+      <h1 className="justify-center flex m-3 text-black font-bold bg-white"></h1>
       <div className="flex justify-between m-10 p-10 rounded-lg bg-white">
         <div>
           <LinkedIn liPost={linkedInPost} />
